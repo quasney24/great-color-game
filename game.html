@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type= "text/css" href="game.css">
+    </head>
+    <body>
+        <h1 class="title1">The Great 
+            <br>
+            <span id="selectedColorText"></span> 
+            <br>
+            Color Game
+        </h1>
+        <div id="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button id="easyBtn" class="mode">Easy</button>
+            <button id="hardBtn" class="mode selected">Hard</button>
+        </div>
+        <div class="container">
+            <div class="score-container">
+               <span class="scoreText" id="score-line"> Score: </span><span id="score"></span>
+                <span class="scoreText level-up"></span>
+                <span class="leveler scoreText"> </span>
+            </div>   
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
